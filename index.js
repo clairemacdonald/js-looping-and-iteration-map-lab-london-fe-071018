@@ -18,9 +18,9 @@ function nameToAttributes(array) {
 
 function attributesToPhrase(drivers) {
   return drivers.map(e=>{
-    console.log(e);
     const name = e.name;
     const hometown =e.hometown;
+    console.log(name + "is from" + hometown)
     return name + "is from" + hometown;
   });
  
