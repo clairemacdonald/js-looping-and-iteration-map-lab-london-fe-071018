@@ -20,8 +20,10 @@ function attributesToPhrase(drivers) {
   return array.map(e=>{
     const nameAndLocation = e.split("");
     return {
+      name: nameAndLocation[0],
+      location: nameAndLocation[1]
       
-    }
-  })
+    };
+  });
  
 }
