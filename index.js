@@ -21,7 +21,7 @@ function attributesToPhrase(drivers) {
     const name = e.name;
     const hometown =e.hometown;
     console.log(name + " is from " + hometown)
-    return name + " is from " + hometown;
+    return e.name + " is from " + hometown;
   });
  
 }
