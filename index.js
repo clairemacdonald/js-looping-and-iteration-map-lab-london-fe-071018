@@ -18,10 +18,10 @@ function nameToAttributes(array) {
 
 function attributesToPhrase(drivers) {
   return array.map(e=>{
-    const nameAndLocation = e.split("");
+    const nameAndHometown = e.split("");
     return {
-      name: nameAndLocation[0],
-      location: nameAndLocation[1]
+      name: nameAndHometown[0],
+      hometown: nameAndHometown[1]
       
     };
   });
