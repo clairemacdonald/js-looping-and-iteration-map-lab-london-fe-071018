@@ -17,6 +17,11 @@ function nameToAttributes(array) {
 
 
 function attributesToPhrase(drivers) {
-  
+  return array.map(e=>{
+    const nameAndLocation = e.split("");
+    return {
+      
+    }
+  })
  
 }
